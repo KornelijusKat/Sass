@@ -1,2 +1,17 @@
 @import "components/var";
 @import "components/header";
+@import "components/section";
+body{
+    background:linear-gradient(292.92deg, #E6E6E4 7.23%, #F0E8E2 97.74%);
+}
+.fa-solid.fa-star{
+    color:#FFB988;
+    font-size: 24px;
+}
+.fa-solid.fa-play{
+    position: absolute;
+    bottom: 25%;
+    left:35%;
+    font-size: 40px;
+    color:#ffffff;
+}
