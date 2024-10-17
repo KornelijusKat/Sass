@@ -1,8 +1,15 @@
+@import "mixins/card";
 @import "components/var";
 @import "components/header";
 @import "components/section";
+@import "components/brandsection";
+@import "components/footer";
+
+
 body{
     background:linear-gradient(292.92deg, #E6E6E4 7.23%, #F0E8E2 97.74%);
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
 }
 .fa-solid.fa-star{
     color:#FFB988;

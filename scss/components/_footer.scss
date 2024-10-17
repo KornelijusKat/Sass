@@ -1,0 +1,74 @@
+.footercontainer__titlebox{
+    text-align: center;
+    padding: 50px;
+    .titlebox__text{
+        font-size: 18px;
+        font-weight: 400;
+        color: $black;
+    }
+    .titlebox__title{
+        font-size: 32px;
+        font-weight: 600;
+    }
+}
+.cardblock{
+    width: 90vw;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    align-content: flex-end;
+    padding-bottom: 50px;
+    .cardblock__card{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        overflow: hidden;  
+        .card__imagebox{
+            flex-grow: 1;
+            width: 100%;
+            overflow: hidden;  
+            display: flex;
+            align-items: flex-end;  
+        }
+            .card_image{
+             width: 100%;
+             height:auto;
+        }
+        .card__textbox{
+            padding: 10px 20px;
+            width:100%;
+           
+            background-color: #ffffff;
+            margin-top: 0px;
+            .card__title{
+                margin:0px;
+                padding-top: 5px;
+                font-size:20px;
+                font-weight: 400;
+                color:$black;
+            }
+            .card__text{
+                font-size: $text-small;
+                color:$cream;
+                margin: 0;
+                padding: 10px 0;
+                font-weight: 400;
+           }
+         
+        }
+       
+    }
+    .cardblock__card:nth-child(1){
+        @include card(10px, none );
+    }
+    .cardblock__card:nth-child(2){
+        @include card(10px, #E38D1E);
+    }
+    .cardblock__card:nth-child(3){
+        @include card(10px, #A08DC4);
+    }
+    .cardblock__card:nth-child(4){ 
+        @include card(10px, none );
+    }
+}

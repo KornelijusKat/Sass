@@ -81,7 +81,7 @@
   right: 2%; }
 
 .imageblock__commentbox {
-  background-color: #ffffff;
+  background-color: #ffff;
   border-radius: 5px;
   width: fit-content;
   padding: 10px 40px;
@@ -92,8 +92,86 @@
     display: flex;
     gap: 10px; }
 
+.brandsection {
+  margin: 0 auto; }
+  .brandsection .brandblock {
+    text-align: center; }
+    .brandsection .brandblock .brandblock__list {
+      margin: 0 auto;
+      justify-content: center;
+      display: flex;
+      gap: 40px;
+      list-style: none; }
+      .brandsection .brandblock .brandblock__list .list__item a {
+        text-decoration: none;
+        color: #9B948E; }
+
+.footercontainer__titlebox {
+  text-align: center;
+  padding: 50px; }
+  .footercontainer__titlebox .titlebox__text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #1F1D2A; }
+  .footercontainer__titlebox .titlebox__title {
+    font-size: 32px;
+    font-weight: 600; }
+
+.cardblock {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  padding-bottom: 50px; }
+  .cardblock .cardblock__card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    overflow: hidden; }
+    .cardblock .cardblock__card .card__imagebox {
+      flex-grow: 1;
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      align-items: flex-end; }
+    .cardblock .cardblock__card .card_image {
+      width: 100%;
+      height: auto; }
+    .cardblock .cardblock__card .card__textbox {
+      padding: 10px 20px;
+      width: 100%;
+      background-color: #ffffff;
+      margin-top: 0px; }
+      .cardblock .cardblock__card .card__textbox .card__title {
+        margin: 0px;
+        padding-top: 5px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #1F1D2A; }
+      .cardblock .cardblock__card .card__textbox .card__text {
+        font-size: 16px;
+        color: #9B948E;
+        margin: 0;
+        padding: 10px 0;
+        font-weight: 400; }
+  .cardblock .cardblock__card:nth-child(1) {
+    background-color: none;
+    border-radius: 10px; }
+  .cardblock .cardblock__card:nth-child(2) {
+    background-color: #E38D1E;
+    border-radius: 10px; }
+  .cardblock .cardblock__card:nth-child(3) {
+    background-color: #A08DC4;
+    border-radius: 10px; }
+  .cardblock .cardblock__card:nth-child(4) {
+    background-color: none;
+    border-radius: 10px; }
+
 body {
-  background: linear-gradient(292.92deg, #E6E6E4 7.23%, #F0E8E2 97.74%); }
+  background: linear-gradient(292.92deg, #E6E6E4 7.23%, #F0E8E2 97.74%);
+  height: 100vh;
+  font-family: "Poppins", sans-serif; }
 
 .fa-solid.fa-star {
   color: #FFB988;

@@ -56,8 +56,8 @@
     right:2%;
 }
 .imageblock__commentbox{
-    background-color: #ffffff;
-    border-radius: 5px;
+
+    @include card(5px, #ffff);
     width:fit-content;
     padding: 10px 40px;
     position: absolute;
