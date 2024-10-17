@@ -1,0 +1,23 @@
+.menu {
+    &__container{
+        display: flex;
+        gap:50px;
+        align-items: center;
+        justify-content: space-between;
+        @include for-phone-only {    
+            gap:30px;
+            margin-bottom: 10px;
+            flex-direction: column;
+          }   
+        &__item{
+            font-size: $text-small;
+            font-weight: 400;
+            text-decoration: none;
+            color:$black;
+        }
+        &__item:first-child{
+            border-bottom: solid $black 2px;
+            padding:5px 5px 5px 5px;
+        }
+    }
+}

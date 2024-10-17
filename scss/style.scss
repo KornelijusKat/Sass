@@ -1,24 +1,14 @@
+@import "mixins/media";
 @import "mixins/card";
-@import "components/var";
-@import "components/header";
-@import "components/section";
-@import "components/brandsection";
-@import "components/footer";
+@import "abstract/var";
+@import "layouts/header";
+@import "layouts/hero";
+@import "layouts/brandsection";
+@import "layouts/footer";
+@import "components/overlay";
+@import "components/nav";
+@import "base/base";
+@import "abstract/icon";
 
 
-body{
-    background:linear-gradient(292.92deg, #E6E6E4 7.23%, #F0E8E2 97.74%);
-    height: 100vh;
-    font-family: "Poppins", sans-serif;
-}
-.fa-solid.fa-star{
-    color:#FFB988;
-    font-size: 24px;
-}
-.fa-solid.fa-play{
-    position: absolute;
-    bottom: 25%;
-    left:35%;
-    font-size: 40px;
-    color:#ffffff;
-}
+

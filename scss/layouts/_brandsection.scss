@@ -1,0 +1,23 @@
+.brandsection{
+    margin: 0 auto;  
+    &__brandblock{
+        text-align: center;
+        &__title{
+            font-size: $text-small;
+            font-weight: 400;
+            margin-bottom: 40px;
+        }
+        &__list{
+            margin: 0 auto;
+            justify-content: center;
+            display: flex;
+            gap:40px;
+            list-style: none;
+            @include for-phone-only {    
+                gap:30px;
+                padding-left: 0;
+                flex-direction: column;
+              }        
+        }
+    }
+}
