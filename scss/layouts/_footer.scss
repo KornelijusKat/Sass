@@ -41,6 +41,11 @@
         flex-direction: column;
         gap:20px;
       }   
+    @include for-medium-only{
+       flex-wrap: wrap;
+       gap:20px;
+       justify-content: space-around;
+    }
     &__card:nth-child(1){
         @include card(10px, none );
     }

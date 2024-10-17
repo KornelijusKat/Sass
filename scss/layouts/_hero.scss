@@ -77,6 +77,10 @@ section{
         height:250px;
         margin:0 auto;
       }
+    @include for-medium-only{
+        width:300px;
+        height: 300px;
+    }
     &__imagecon{
         height:500px;
         width:500px;
@@ -98,7 +102,7 @@ section{
             @include for-phone-only {    
                width: 250px;
                height:250px;
-             }      
+             }  
         }   
     }
     &__arrow{
@@ -112,7 +116,11 @@ section{
         @include for-phone-only {    
             top:40%;
             right:-10%;
-          }   
+          }  
+        @include for-medium-only{
+             top:70%;
+             right:-80%;   
+        }   
     }
     &__commentbox{
         @include card(20px, #ffff);
@@ -127,7 +135,11 @@ section{
             top: 90%;
             left:0;
             height:40%;
-          }    
+          }   
+          @include for-medium-only{
+            top:1;
+            left:1;
+       }   
         &__title{
             margin-bottom: 5px;
             font-size: $text-small;

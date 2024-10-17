@@ -97,6 +97,10 @@ section {
       width: 250px;
       height: 250px;
       margin: 0 auto; } }
+  @media (min-width: 768px) and (max-width: 1200px) {
+    .imageblock {
+      width: 300px;
+      height: 300px; } }
   .imageblock__imagecon {
     height: 500px;
     width: 500px;
@@ -131,6 +135,10 @@ section {
       .imageblock__arrow {
         top: 40%;
         right: -10%; } }
+    @media (min-width: 768px) and (max-width: 1200px) {
+      .imageblock__arrow {
+        top: 70%;
+        right: -80%; } }
   .imageblock__commentbox {
     background-color: #ffff;
     border-radius: 20px;
@@ -146,6 +154,10 @@ section {
         top: 90%;
         left: 0;
         height: 40%; } }
+    @media (min-width: 768px) and (max-width: 1200px) {
+      .imageblock__commentbox {
+        top: 1;
+        left: 1; } }
     .imageblock__commentbox__title {
       margin-bottom: 5px;
       font-size: 16px;
@@ -222,6 +234,11 @@ section {
     .cardblock {
       flex-direction: column;
       gap: 20px; } }
+  @media (min-width: 768px) and (max-width: 1200px) {
+    .cardblock {
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-around; } }
   .cardblock__card:nth-child(1) {
     background-color: none;
     border-radius: 10px; }
