@@ -285,7 +285,7 @@ section {
 
 .overlay {
   content: '';
-  background-image: url("../../svg/Group 16.svg");
+  background-image: url("../../svg/Group16.svg");
   background-repeat: no-repeat;
   position: absolute;
   top: 0;
